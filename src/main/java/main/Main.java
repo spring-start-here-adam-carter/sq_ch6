@@ -21,7 +21,5 @@ public class Main {
         comment.setAuthor("Natasha");
 
         service.publishComment(comment);
-        service.deleteComment(comment);
-        service.editComment(comment);
     }
 }
